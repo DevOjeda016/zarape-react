@@ -11,6 +11,9 @@ npm run build
 ```
 Levanta primero la API (`mvn spring-boot:run` en `zarape-springboot`).
 
+## Docker (desarrollo)
+El entorno completo (MySQL + API + este front) se levanta desde `zarape-springboot` con `./dev.sh up`; ahí está el `docker-compose.dev.yml`. Este repo solo aporta `Dockerfile.dev`.
+
 ## Pantallas
 | Ruta | Acceso | Descripción |
 |---|---|---|
